@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Cloud Next 2024"
 date:   2024-05-23 18:10:23 +0530
-#categories: jekyll update
+categories: jekyll update
 excerpt: All announcements of Google Cloud Next 2024
 ---
 
