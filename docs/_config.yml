@@ -1,124 +1,18 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-#name: Mohtasham Sayeed Mohiuddin
 title: Mohtasham Sayeed Mohiuddin
 email: mohtasham.sayeed@gmail.com
-website: https://medium.com/@mohtasham9
-description: >- # this means to ignore newlines until "baseurl:"
-  Cloud Engineer with a proven track record of designing, implementing, and securing cloud solutions on AWS and GCP. Adept at collaborating with cross-functional teams to align cloud architectures with business goals. Experienced in optimizing costs, ensuring security and compliance, and providing expert support for non-engineering teams.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: "Cloud Engineer with a proven track record of designing, implementing, and securing cloud solutions on AWS and GCP."
+baseurl: ""
+url: "https://mohtasham9.github.io/"
 linkedin_username: mohtasham09
-github_username:  mohtasham9
-
-# Build settings
+github_username: mohtasham9
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-content:
-  # - title: Projects
-  #   layout: list
-  #   content:
-  #     - layout: top-middle
-  #       border: weak
-  #       title: Project 1
-  #       link: https://sproogen.github.io/modern-resume-theme
-  #       additional_links:
-  #         - title:  Github page for project
-  #           icon: fab fa-github
-  #           url: sproogen.github.io/modern-resume-theme
-  #       quote: >
-  #         Short overview of the project
-  #       description: >
-  #         Description about the work on/with the project
-
-  #     - title: Project 2
-  #       description: >
-  #         Description about the work on/with the project
-  # - title: Experience
-  #   layout: list
-  #   content:
-  #     - layout: right
-  #       border: weak
-  #       title: CriticalRiver
-  #       link: https://criticalriver.com
-  #       sub_title: Cloud Engineer
-  #       caption: March 2022 - present
-  #       description: >
-  #           Managed cloud deployments using Terraform, reducing deployment time by 30% and ensuring infrastructure consistency.
-
-  #           Spearheaded end-to-end data migration project from AWS S3 to Snowflake, achieving a 30% reduction in ETL processing time and
-  #           enhancing overall data integrity and accessibility within the Snowflake data warehouse.
-
-  #           Designed and implemented robust data pipelines for the Pricing Analytics project, ensuring efficient extraction, transformation, and loading (ETL) processes.
-
-  #           Optimized and managed cloud costs, resulting in a 15% reduction in overall expenses through effective resource utilization and cost
-  #           monitoring.
-
-  #           Created and fine-tuned generative models using frameworks like GPT, BERT, and Transformer-based architectures to generate text, improving natural language understanding and generation capabilities.
-
-  #     - layout: top
-  #       title: Techolution
-  #       sub_title: Cloud Native Intern
-  #       caption: December 2021 - March 2022
-  #       description: >
-  #         Utilized Docker to containerize microservices, streamlining the deployment process and ensuring consistency across development and
-  #         production environments.
-
-  #         Worked with both SQL (PostgreSQL) and NoSQL (MongoDB) databases to support microservices, optimizing queries and ensuring data integrity.
-
-  #         Implemented monitoring and logging solutions using tools like Prometheus and ELK stack, improving system observability and
-  #         debugging capabilities
-
-  # - title: Education
-  #   layout: list
-  #   content:
-  #     - title: Osmania University
-  #       border: weak
-  #       sub_title: 2018 - 2022
-  #       caption: Degree
-  #       quote: >
-  #         Bachelor of Engineering
-  #       description: >
-  #         Description of qualification
-  #     - layout: left
-        
-
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Social media links
+social_links:
+  linkedin: https://www.linkedin.com/in/mohtasham09
+  github: https://github.com/mohtasham9
+  medium: https://medium.com/@mohtasham9

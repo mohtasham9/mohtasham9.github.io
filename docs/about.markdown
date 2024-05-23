@@ -1,8 +1,9 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default
+title: About Me
 ---
+
+# About Me
 
 Dedicated to driving transformative change through technology, I am a seasoned professional with a robust background in computer science and an unwavering commitment to innovation. With expertise in diverse cloud platforms, I excel in crafting forward-looking solutions that not only meet business needs but also contribute to a sustainable future.
 
@@ -27,5 +28,6 @@ You can checkout my Cloud Certifications:
 - [Microsoft Certified: Azure AI Fundamentals](https://www.credly.com/badges/f831b823-c012-4c41-a310-707a82c513bb)
 - [Microsoft Certified: Security, Compliance, and Identity Fundamentals](https://www.credly.com/badges/8ea4b0e9-e9b5-4526-b336-6c9091b0540f)
 - [Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/15ccb9e5-b807-4b52-9dac-c9d8de7477b8)
+
 
 
