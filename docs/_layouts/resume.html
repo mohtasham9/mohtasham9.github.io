@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+  <main class="container">
+    <h1>{{ page.title }}</h1>
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <h3>CriticalRiver</h3>
+          <p><strong>Cloud Engineer</strong> (March 2022 - Present)</p>
+          <ul>
+            <li>Managed cloud deployments using Terraform, reducing deployment time by 30% and ensuring infrastructure consistency.</li>
+            <li>Spearheaded end-to-end data migration project from AWS S3 to Snowflake, achieving a 30% reduction in ETL processing time and enhancing overall data integrity and accessibility within the Snowflake data warehouse.</li>
+            <li>Designed and implemented robust data pipelines for the Pricing Analytics project, ensuring efficient extraction, transformation, and loading (ETL) processes.</li>
+            <li>Optimized and managed cloud costs, resulting in a 15% reduction in overall expenses through effective resource utilization and cost monitoring.</li>
+            <li>Created and fine-tuned generative models using frameworks like GPT, BERT, and Transformer-based architectures to generate text, improving natural language understanding and generation capabilities.</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Techolution</h3>
+          <p><strong>Cloud Native Intern</strong> (December 2021 - March 2022)</p>
+          <ul>
+            <li>Utilized Docker to containerize microservices, streamlining the deployment process and ensuring consistency across development and production environments.</li>
+            <li>Worked with both SQL (PostgreSQL) and NoSQL (MongoDB) databases to support microservices, optimizing queries and ensuring data integrity.</li>
+            <li>Implemented monitoring and logging solutions using tools like Prometheus and ELK stack, improving system observability and debugging capabilities.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <h3>Osmania University</h3>
+          <p><strong>Bachelor of Engineering</strong> (2018 - 2022)</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  {% include footer.html %}
+</body>
+</html>
