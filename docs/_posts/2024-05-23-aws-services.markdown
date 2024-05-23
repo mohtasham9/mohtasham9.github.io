@@ -3,6 +3,7 @@ layout: post
 title:  "Deploy FastAPI App Using AWS Lambda"
 date:   2024-05-23 16:10:23 +0530
 categories: jekyll update
+excerpt: We’ll walk through the process of deploying a FastAPI using docker image and lambda functions
 ---
 
 

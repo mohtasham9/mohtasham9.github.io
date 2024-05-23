@@ -3,6 +3,7 @@ layout: post
 title:  "Google Cloud Sustainability"
 date:   2024-05-23 15:48:23 +0530
 categories: jekyll update
+excerpt: we’re going to explore how Google Cloud is working towards sustainability while still providing awesome technology.
 ---
 In this series, we’re going to explore how Google Cloud is working towards sustainability while still providing awesome technology.
 

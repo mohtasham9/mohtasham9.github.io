@@ -3,6 +3,7 @@ layout: post
 title:  "AWS Reinvent 2023"
 date:   2023-12-07 18:10:23 +0530
 categories: jekyll update
+excerpt: AWS Re:Invent 2023 key announcements and Insights
 ---
 
 AWS Re: Invent 2023 was not just a conference; it was an immersive experience, and I had the privilege of attending all the keynotes in person. As a first-timer, the sheer magnitude of insights, announcements, and groundbreaking technologies left an indelible mark on my cloud journey.
