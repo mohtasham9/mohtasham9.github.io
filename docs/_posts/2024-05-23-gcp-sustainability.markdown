@@ -5,6 +5,9 @@ date:   2024-05-23 15:48:23 +0530
 categories: jekyll update
 excerpt: we’re going to explore how Google Cloud is working towards sustainability while still providing awesome technology.
 ---
+
+![Alt Text](/assets/images/gcp-sus.png)
+
 In this series, we’re going to explore how Google Cloud is working towards sustainability while still providing awesome technology.
 
 The digital revolution has transformed how we live and work, but it also comes with an environmental cost. Data centers, the backbone of cloud computing, require significant energy to operate, raising concerns about their impact on the planet. This is where cloud sustainability comes in.
