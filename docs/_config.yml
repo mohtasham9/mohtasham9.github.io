@@ -23,7 +23,7 @@ email: mohtasham.sayeed@gmail.com
 website: https://medium.com/@mohtasham9
 description: >- # this means to ignore newlines until "baseurl:"
   Cloud Engineer with a proven track record of designing, implementing, and securing cloud solutions on AWS and GCP. Adept at collaborating with cross-functional teams to align cloud architectures with business goals. Experienced in optimizing costs, ensuring security and compliance, and providing expert support for non-engineering teams.
-baseurl: "/blogs/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: mohtasham09
 github_username:  mohtasham9
