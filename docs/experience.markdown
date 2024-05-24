@@ -22,3 +22,37 @@ December 2021 - March 2022
 - Utilized Docker to containerize microservices, streamlining the deployment process and ensuring consistency across development and production environments.
 - Worked with both SQL (PostgreSQL) and NoSQL (MongoDB) databases to support microservices, optimizing queries and ensuring data integrity.
 - Implemented monitoring and logging solutions using tools like Prometheus and ELK stack, improving system observability and debugging capabilities.
+
+
+## Volunteering
+
+**Amazon Web Services**  
+**AWS Community Builder**  
+October 2021 - Present
+
+- Contributed blog posts and tutorials on AWS best practices, increasing engagement and knowledge sharing within the community.
+- Spearheaded community outreach initiatives to educate and empower individuals interested in cloud computing.
+- Mentored aspiring cloud professionals through personalized guidance and support in their learning journey.
+
+**Google Cloud**  
+**Google Cloud Facilitator**  
+March 2022 - June 2022 &  June 2023 - September 2023
+
+- Led interactive sessions and hands-on labs on Google Cloud Platform (GCP) services and solutions, training 200+ students and professionals in cloud computing.
+- Facilitated group discussions and interactive activities to reinforce learning objectives and foster collaboration.
+- Provided personalized coaching and mentorship to participants seeking to advance their cloud expertise.
+  
+**GitLab**  
+**GitLab Hero**  
+October 2021 - June 2023
+
+- Advocated for GitLab's CI/CD pipelines at industry conferences and webinars, promoting efficient DevOps practices.
+- Created and shared tutorials, guides, and best practices for effective version control, CI/CD pipelines, and collaboration workflows.
+
+**Auth0**  
+**Auth0 Ambassador**  
+August 2022 - January 2023
+
+- Promoted the adoption and implementation of secure authentication and identity management solutions using Auth0.
+- CEngaged with developers, IT professionals, and decision-makers to understand their authentication challenges and offer tailored solutions.
+- Created educational content and tutorials on integrating Auth0 with popular frameworks, increasing adoption among developers.

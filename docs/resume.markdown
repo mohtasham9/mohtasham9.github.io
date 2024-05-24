@@ -2,5 +2,3 @@
 layout: resume
 title: Resume
 ---
-
-
