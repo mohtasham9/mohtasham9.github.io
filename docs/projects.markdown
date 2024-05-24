@@ -9,27 +9,23 @@ title: Projects & Publications
 
 1. **Title**: **Resume Parser for Extracting User Information**  
     **Description**: Developed a resume parser using PyResparser and PDFMiner to automate and enhance the resume analysis process for HR teams, recruitment agencies, and job boards. This solution transforms PDF resumes into text, extracting essential user information such as contact details, work experience, education, and skills. The parser reduces the time and resources required for manual screening, ensures thorough analysis, minimizes human bias, and provides strategic insights into job market trends.  
-    [GitHub Repository](https://github.com/mohtasham9/resume-parser)
-
-2. **Title**: **Resume Parser NLP**  
-**Description**: Designed and implemented a robust system for intelligent IT operations, utilizing AI for proactive issue detection and resolution. The project included developing automated scripts for infrastructure management and integrating monitoring tools for real-time system health analysis.  
-[GitHub Repository](https://github.com/mohtasham9/Resume-parser-nlp)
+    [GitHub Repository](https://github.com/mohtasham9/Resume-parser-nlp)
 
 
-3. **Title**: **Cloud Cost Management** ☁️ 💰  
+2. **Title**: **Cloud Cost Management** ☁️ 💰  
 **Description**: Developed an innovative solution to optimize cloud expenditures for organizations by automatically managing idle resources. This project focuses on reducing costs in non-production environments (Dev, QA, UAT, staging) by up to 60% through an intelligent scheduler that automates the shutdown and startup of compute services during non-business hours. This approach ensures effective resource utilization without impacting business operations, providing significant cost savings.  
 [GitHub Repository](https://github.com/mohtasham9/cloud-cost-optimization)
 
-4. **Title**: **Private DocumentGPT**   
+3. **Title**: **Private DocumentGPT**   
 **Description**: Utilized PrivateGPT, a document-based question-answering system built with Llama2 and FAISS DB, powered by Langchain and Streamlit. This tool ensures data privacy by processing documents in real-time without storing them, providing secure and efficient document management and query resolution on standard CPU machines with at least 16GB of RAM.  
 **How it works**: Upon document upload, it divides the document into smaller chunks and stores them in a vector index for semantic search and retrieval. When a question is asked, PrivateGPT searches the chunks, retrieves the most relevant ones, and uses Llama-2-7B-Chat-GGML (8 bit) to generate an answer.  
 [GitHub Repository](https://github.com/mohtasham9/private-gpt)
 
-5. **Title**: **Cloud Resources Management with Automated Recommendations**   
+4. **Title**: **Cloud Resources Management with Automated Recommendations**   
 **Description**: Implemented a cloud resource management solution leveraging Google Cloud's Recommender service to optimize resource usage and cost efficiency. This system analyzes cloud resource utilization and provides actionable recommendations across various categories including cost, security, performance, manageability, and sustainability. By automatically suggesting the optimal resources based on actual usage patterns, the solution helps organizations efficiently manage their cloud infrastructure, minimize wastage, and ensure capacity and cost management align with business needs.    
 [GitHub Repository](https://github.com/mohtasham9/cloud-capacity-management)
 
-6. **Title**: **AWS Textract Data Extraction Web Application**    
+5. **Title**: **AWS Textract Data Extraction Web Application**    
 **Description**: The AWS Textract Data Extraction Web Application is a powerful tool designed to automate the extraction of structured data from documents. Using Streamlit for the web interface and AWS Textract for document analysis, this application supports both PDFs and images, extracting text, tables, key-value pairs, and dates. Uploaded documents are processed via AWS S3, and the extracted information is displayed in an intuitive, user-friendly format. With robust error handling and the ability to save results to a file, this project demonstrates the seamless integration of cloud services with Python-based web development to provide efficient and effective data processing solutions.   
 [GitHub Repository](https://github.com/mohtasham9/aws-textract)
 
