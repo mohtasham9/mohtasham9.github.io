@@ -54,5 +54,5 @@ October 2021 - June 2023
 August 2022 - January 2023
 
 - Promoted the adoption and implementation of secure authentication and identity management solutions using Auth0.
-- CEngaged with developers, IT professionals, and decision-makers to understand their authentication challenges and offer tailored solutions.
+- Engaged with developers, IT professionals, and decision-makers to understand their authentication challenges and offer tailored solutions.
 - Created educational content and tutorials on integrating Auth0 with popular frameworks, increasing adoption among developers.
