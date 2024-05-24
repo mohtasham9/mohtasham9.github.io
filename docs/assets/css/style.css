@@ -82,7 +82,50 @@ body {
   }
   
   .intro-text {
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
   }
   
+  .projects-publications {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  h3 {
+    margin-top: 10px;
+    font-size: 1.2em; /* Reduced size for publication titles */
+  }
+  
+  
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.description {
+  margin: 5px 0;
+}
+
+.publication-title {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.publication-description {
+  font-size: 0.9em;
+}
+
+.project-description, .project-title {
+  margin: 5px 0;
+}
+
+.project-repo {
+  margin-top: 10px;
+}
