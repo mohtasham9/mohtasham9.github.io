@@ -5,39 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-5A5I6g+GAlft5Ohe1BQAOxlBSn6uJpsMbQ58dEYx6Y/hjT2L4Bv93nbAqY6lF5hx" crossorigin="anonymous">
 </head>
 <body>
   {% include header.html %}
   <main class="container">
-    <section id="intro" class="section hero">
+    <section id="intro" class="section">
       <div class="intro-content">
         <img src="{{ '/assets/images/mohtasham.png' | relative_url }}" alt="Your Photo" class="profile-photo">
         <div class="intro-text">
           <h1>Welcome to My Portfolio</h1>
           <p>Hello! I'm {{ site.title }}, a passionate Cloud Engineer and Machine Learning enthusiast. Welcome to my portfolio where I share my journey, projects, and thoughts on technology.</p>
-          <div class="social-links">
-            <a href="https://github.com/mohtasham9" class="social-icon" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            <a href="https://www.linkedin.com/in/mohtasham09/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://medium.com/@mohtasham9" class="social-icon" target="_blank"><i class="fab fa-medium"></i> Medium</a>
-          </div>
         </div>
       </div>
     </section>
 
     <section id="highlights" class="section">
-      <div class="container">
-        <h2>Highlights</h2>
-        <ul class="highlights-list">
-          <li>Awarded "Customer Delight Award" twice in 2023</li>
-          <li>AWS Community Builder Since 2021</li>
-          <li>11 X Multi-Cloud Certified</li>
-          <li>All Builder Grant Recipient</li>
-          <li>Couchbase Ambassador</li>
-          <li>Worked on GenAI POCs</li>
-          <li>Developed AI models with 90% accuracy</li>
-        </ul>
-      </div>
+      <h2>Highlights</h2>
+      <ul class="highlights-list">
+        <li>Awarded "Customer Delight Award" twice in 2023</li>
+        <li>AWS Community Builder Since 2021</li>
+        <li>11 X Multi-Cloud Certified</li>
+        <li>All Builder Grant Recipient</li>
+        <li>Couchbase Ambassador</li>
+        <li>Worked on GenAI POCs</li>
+        <li>Developed AI models with 90% accuracy</li>
+      </ul>
     </section>
   </main>
   {% include footer.html %}
