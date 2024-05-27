@@ -15,11 +15,12 @@
         <img src="{{ '/assets/images/mohtasham.png' | relative_url }}" alt="Your Photo" class="profile-photo">
         <div class="intro-text">
           <h1>Welcome to My Portfolio</h1>
-          <p>Hello! I'm {{ site.title }}, a passionate Cloud Engineer and Machine Learning enthusiast. Welcome to my portfolio where I share my journey, projects, and thoughts on technology.</p>
+          <h3>Cloud Engineer | GenAI | Sustainability Enthusiast</h3>
+          <p>Hello! I'm {{ site.title }}, a passionate Cloud Engineer with a deep interest in Generative AI and a strong commitment to sustainability. With a background in developing and managing robust cloud infrastructures, I leverage cutting-edge technologies to create scalable, secure, and efficient solutions.</p>
           <div class="social-links">
-            <a href="https://github.com/mohtasham9" class="social-icon" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            <a href="https://www.linkedin.com/in/mohtasham09/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://medium.com/@mohtasham9" class="social-icon" target="_blank"><i class="fab fa-medium"></i> Medium</a>
+            <a href="https://www.linkedin.com/in/mohtasham09/" class="social-icon" target="_blank"><img src="/assets/images/linkedin1.png" alt="LinkedIn"></a>
+            <a href="https://github.com/mohtasham9" class="social-icon" target="_blank"><img src="/assets/images/github.png" alt="GitHub"></a>
+            <a href="https://medium.com/@mohtasham9" class="social-icon" target="_blank"><img src="/assets/images/medium.png" alt="Medium"></a>
           </div>
         </div>
       </div>
@@ -35,11 +36,45 @@
           <li>All Builder Grant Recipient</li>
           <li>Couchbase Ambassador</li>
           <li>Worked on GenAI POCs</li>
-          <li>Developed AI models with 90% accuracy</li>
         </ul>
       </div>
     </section>
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form id="contact-form" action="https://formspree.io/f/mjvndlej" method="POST" onsubmit="return validateForm()">
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" class="input-field">
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+       
   </main>
   {% include footer.html %}
+  <script>
+    function validateForm() {
+      var name = document.getElementById('name').value.trim();
+      var message = document.getElementById('message').value.trim();
+      
+      if (name === "" || message === "") {
+        alert("Please fill in all fields.");
+        return false;
+      }
+      
+      return true;
+    }
+  </script>
 </body>
 </html>
