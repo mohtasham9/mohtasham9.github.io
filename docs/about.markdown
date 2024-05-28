@@ -8,6 +8,7 @@ title: About Me
   <a href="#about-me" class="button">About Me</a>
   <a href="#education" class="button">Education</a>
   <a href="#certifications" class="button">Certifications</a>
+  <a href="#courses" class="button">Courses</a>
 </div>
 
 ---
@@ -37,7 +38,7 @@ In a rapidly evolving landscape, I am eager to bring my skills and vision to a d
   - Participated in organizing technical fests and symposiums, enhancing organizational and leadership skills (2019 - 2021)
 
 
-## <a id="certifications"></a>Cloud Certifications:
+## <a id="certifications"></a>Cloud Certifications
 - [AWS Certified Machine Learning – Specialty](https://www.credly.com/badges/24fc796d-f24d-47fe-a5d3-84927392204a)
 - [Professional Machine Learning Engineer Certification](https://www.credly.com/badges/0fa29e73-0dbb-440d-998e-33178aace8da)
 - [Professional Cloud Architect Certification](https://www.credly.com/badges/4064916c-9c71-40ef-8d35-62949d3d507d)
@@ -51,4 +52,12 @@ In a rapidly evolving landscape, I am eager to bring my skills and vision to a d
 - [Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/15ccb9e5-b807-4b52-9dac-c9d8de7477b8)
 
 
-
+## <a id="courses"></a>Courses
+- [6.431x: Probability - The Science of Uncertainty and Data (MITx)](https://courses.edx.org/certificates/ff755b9afe264d769b3350280fc80d3e)
+- [6.86x: Machine Learning with Python-From Linear Models to Deep Learning (MITx)](https://courses.edx.org/certificates/2b3dcf4ad33740cd98fb8936b00a6e9f)
+- [Machine Learning on Google Cloud - Specialization](https://www.coursera.org/account/accomplishments/specialization/AM86WX87M2WM)
+- [Large Language Models: Application through Production](https://courses.edx.org/certificates/efc11ea8e67248198c4fdfd9b90fdc47)
+- [Generative AI with Large Language Models](https://www.coursera.org/account/accomplishments/verify/2HT8THZCKJ9W)
+- [AWS Academy Graduate - AWS Academy Cloud Foundations](https://www.credly.com/badges/22a39f3a-f86d-4a95-b901-5f2b6fe6d2ff?source=linked_in_profile)
+- [Architecting with Google Compute Engine Specialization](https://coursera.org/verify/specialization/8CCA5PCRVKQ5)
+- [Python Data Structures](https://www.coursera.org/account/accomplishments/verify/M72TRRDA88HD)

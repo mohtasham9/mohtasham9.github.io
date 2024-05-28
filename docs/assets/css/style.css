@@ -21,8 +21,8 @@ body {
 }
 
 header {
-  background: #000000;
-  color: #ffffff;
+  background: #333;
+  color: #fff;
   padding: 5px 0;
   width: 100%; /* Full width */
   position: fixed; /* Fixed positioning */
@@ -34,7 +34,7 @@ header {
 }
 
 header nav ul li a.active {
-  border-bottom: 2px solid #000; /* Adds an underline to the active link */
+  border-bottom: 2px solid #ffffff; /* Adds an underline to the active link */
 }
 
 header nav ul {
