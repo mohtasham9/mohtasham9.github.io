@@ -3,7 +3,16 @@ layout: default
 title: About Me
 ---
 
-# About Me
+
+<div class="nav-buttons">
+  <a href="#about-me" class="button">About Me</a>
+  <a href="#education" class="button">Education</a>
+  <a href="#certifications" class="button">Certifications</a>
+</div>
+
+---
+
+## <a id="about-me"></a>About Me
 
 Dedicated to driving transformative change through technology, I am a seasoned professional with a robust background in computer science and an unwavering commitment to innovation. With expertise in diverse cloud platforms, I excel in crafting forward-looking solutions that not only meet business needs but also contribute to a sustainable future.
 
@@ -13,10 +22,22 @@ I am honored to serve as an [AWS Community Builder](https://aws.amazon.com/devel
 
 In a rapidly evolving landscape, I am eager to bring my skills and vision to a dynamic organization that values collaboration, innovation, and professional growth. Let's leverage technology not just for business value but also to make a positive impact on a global scale.
 
-You can connect with me on [Linkedin](https://www.linkedin.com/in/mohtasham09/)
 
-You can checkout my Cloud Certifications:
 
+## <a id="education"></a>Education   
+### Osmania University
+
+- **Bachelor of Engineering** (2018 - 2022)
+- **Grade:** A
+- **Activities:**
+  - Vice President, Alumni Association
+  - Organized and led coding contests in partnership with Hackerearth, promoting technical skills among students (2020 - 2022)
+  - Conducted Google Cloud workshops and training sessions for fellow students, introducing cloud computing concepts and applications
+  - Awarded Best Student of the Year for academic excellence and extracurricular contributions (2022)
+  - Participated in organizing technical fests and symposiums, enhancing organizational and leadership skills (2019 - 2021)
+
+
+## <a id="certifications"></a>Cloud Certifications:
 - [AWS Certified Machine Learning – Specialty](https://www.credly.com/badges/24fc796d-f24d-47fe-a5d3-84927392204a)
 - [Professional Machine Learning Engineer Certification](https://www.credly.com/badges/0fa29e73-0dbb-440d-998e-33178aace8da)
 - [Professional Cloud Architect Certification](https://www.credly.com/badges/4064916c-9c71-40ef-8d35-62949d3d507d)

@@ -16,13 +16,25 @@ body {
   max-width: 1200px; /* Max width for larger screens */
   margin: auto;
   padding: 20px;
+  padding-top: 70px;
   flex: 1;
 }
 
 header {
-  background: #333;
-  color: #fff;
-  padding: 10px 0;
+  background: #000000;
+  color: #ffffff;
+  padding: 5px 0;
+  width: 100%; /* Full width */
+  position: fixed; /* Fixed positioning */
+  top: 0; /* Place at the top of the viewport */
+  z-index: 1000;
+  /* display: flex; */
+  
+  justify-content: space-between; /* Align items with space between */
+}
+
+header nav ul li a.active {
+  border-bottom: 2px solid #000; /* Adds an underline to the active link */
 }
 
 header nav ul {
@@ -37,22 +49,27 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  font-weight: bold;
 }
 
 header nav ul li a:hover {
   background-color: #555; /* Darken background on hover */
 }
 
+header nav ul li.contact-link {
+  margin-left: auto; /* Push to the right */
+}
+
 footer {
   background: #333;
   color: #fff;
   text-align: center;
-  padding: 10px 0;
+  padding: 8px 0;
   margin-top: auto; /* Push footer to the bottom of the page */
 }
 
@@ -81,7 +98,13 @@ footer ul li a {
 }
 
 h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
   color: #333;
+  scroll-margin-top: var(--header-height);
+}
+
+:root {
+  --header-height: 70px; /* Adjust this to your header height */
 }
 
 /* Hero section styles */
@@ -92,6 +115,7 @@ h1, h2, h3 {
   color: #fff;
   padding: 100px 0;
   text-align: center;
+  margin-top: 0;
 }
 
 .profile-photo {
@@ -147,12 +171,15 @@ h1, h2, h3 {
   transform: scale(1.1); /* Optional: Scale up on hover */
 }
 
+#highlights {
+  padding-top: -10px; /* Add padding top to reduce space */
+}
 
 /* Highlights section */
 .highlights-list {
   list-style: disc; /* Use disc bullets for unordered list */
   padding-left: 20px; /* Indent the list */
-  margin-top: 10px; /* Add some space above the list */
+  margin-top: 20px; /* Add some space above the list */
 }
 
 .highlights-list li {
@@ -195,7 +222,9 @@ html {
 
 #contact {
   background-color: #f0f0f0;
-  padding: 40px 20px;
+  padding: 20px 0; /* Adjust padding as needed */
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #contact h2 {
@@ -245,8 +274,6 @@ html {
   background-color: #555;
 }
 
-
-
 .form-group {
   margin-bottom: 20px;
 }
@@ -286,5 +313,28 @@ button {
 
 button:hover {
   background-color: #0056b3; /* Darker shade on hover */
+}
+
+.nav-buttons {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-buttons .button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px; /* Add margin to create space between buttons */
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(45deg, #ff6b6b, #f06595); /* Gradient background */
+  text-decoration: none;
+  border-radius: 30px; /* Rounded corners for a modern look */
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.nav-buttons .button:hover {
+  background: linear-gradient(45deg, #f06595, #ff6b6b); /* Reverse gradient on hover */
+  transform: scale(1.1);
 }
 
