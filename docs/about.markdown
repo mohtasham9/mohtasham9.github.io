@@ -9,7 +9,8 @@ title: About Me
   <a href="#education" class="button">Education</a>
   <a href="#certifications" class="button">Certifications</a>
   <a href="#courses" class="button">Courses</a>
-</div>
+</div>  
+
 
 ---
 
@@ -38,7 +39,8 @@ In a rapidly evolving landscape, I am eager to bring my skills and vision to a d
   - Participated in organizing technical fests and symposiums, enhancing organizational and leadership skills (2019 - 2021)
 
 
-## <a id="certifications"></a>Cloud Certifications
+## <a id="certifications"></a>Cloud Certifications   
+
 - [AWS Certified Machine Learning – Specialty](https://www.credly.com/badges/24fc796d-f24d-47fe-a5d3-84927392204a)
 - [Professional Machine Learning Engineer Certification](https://www.credly.com/badges/0fa29e73-0dbb-440d-998e-33178aace8da)
 - [Professional Cloud Architect Certification](https://www.credly.com/badges/4064916c-9c71-40ef-8d35-62949d3d507d)
