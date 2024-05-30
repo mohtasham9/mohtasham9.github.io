@@ -198,6 +198,9 @@ h1, h2, h3 {
   .intro-text {
     padding: 0 20px; /* Add padding on smaller screens */
   }
+  .container {
+    padding-top: 120px; /* Adjust padding for mobile to ensure content is not hidden */
+  }
   header nav ul {
     display: block;
   }
