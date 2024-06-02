@@ -6,7 +6,7 @@ categories: jekyll update
 excerpt: AWS Re:Invent 2023 key announcements and Insights
 ---
 
-![Alt Text](/assets/images/reinvent.png)
+![Alt Text](/assets/images/reinvent.png){:class="post-image"}
 
 AWS Re: Invent 2023 was not just a conference; it was an immersive experience, and I had the privilege of attending all the keynotes in person. As a first-timer, the sheer magnitude of insights, announcements, and groundbreaking technologies left an indelible mark on my cloud journey.
 

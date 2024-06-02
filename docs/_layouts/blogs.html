@@ -18,20 +18,15 @@ layout: default
   <h1>Blog</h1>
 
   {% for post in site.posts %}
-    <div class="post-preview">
+    <div class="blog-post">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="img-fluid">
-      {% endif %}
+      <img src="{{ '/assets/images/' | append: post.image }}" alt="{{ post.title }}" class="post-image">
       <p>{{ post.excerpt }}</p>
       <p><a href="{{ post.url }}">Read more</a></p>
       <hr>
     </div>
   {% endfor %}
 </div>
-
-
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -92,6 +92,7 @@ footer {
   text-align: center;
   padding: 8px 0;
   margin-top: auto; /* Push footer to the bottom of the page */
+  z-index: 1000;
 }
 
 footer ul {
@@ -214,27 +215,22 @@ h1, h2, h3 {
   cursor: pointer; /* Change cursor to pointer on hover */
 }
 
-
-.post-preview img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 20px; /* Center align and add bottom margin */
+/* Hover effect for blog post titles */
+.blog-post h2 a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
 }
 
-/* Additional styling for blog post previews */
-.post-preview {
-  margin-bottom: 40px;
+.blog-post h2 a:hover {
+  color: #007bff;
 }
 
-.post-preview h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.post-preview p {
-  font-size: 16px;
-  margin-bottom: 20px;
+.post-image {
+  display: block; /* Ensure images are treated as block elements */
+  max-width: 100%; /* Maximum width is 100% of parent container */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 1rem; /* Add margin bottom for spacing */
 }
 
 /* Responsive design */
@@ -251,13 +247,6 @@ h1, h2, h3 {
   header nav ul li {
     display: block;
     margin-bottom: 10px;
-  }
-  .post-preview h2 {
-    font-size: 20px;
-  }
-
-  .post-preview p {
-    font-size: 14px;
   }
 }
 
