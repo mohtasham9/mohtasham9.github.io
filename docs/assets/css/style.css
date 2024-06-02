@@ -214,6 +214,29 @@ h1, h2, h3 {
   cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+
+.post-preview img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* Additional styling for blog post previews */
+.post-preview {
+  margin-bottom: 40px;
+}
+
+.post-preview h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.post-preview p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
 /* Responsive design */
 @media screen and (max-width: 768px) {
   .intro-text {
@@ -228,6 +251,13 @@ h1, h2, h3 {
   header nav ul li {
     display: block;
     margin-bottom: 10px;
+  }
+  .post-preview h2 {
+    font-size: 20px;
+  }
+
+  .post-preview p {
+    font-size: 14px;
   }
 }
 

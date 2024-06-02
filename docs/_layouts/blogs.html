@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
 <div class="container">
   <h1>Blog</h1>
 
@@ -12,7 +12,25 @@ layout: default
     <p><a href="{{ post.url }}">Read more</a></p>
     <hr>
   {% endfor %}
+</div> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
+<div class="container">
+  <h1>Blog</h1>
+
+  {% for post in site.posts %}
+    <div class="post-preview">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {% if post.image %}
+        <img src="/assets/images/{{ post.image }}" alt="{{ post.title }}" class="img-fluid">
+      {% endif %}
+      <p>{{ post.excerpt }}</p>
+      <p><a href="{{ post.url }}">Read more</a></p>
+      <hr>
+    </div>
+  {% endfor %}
 </div>
+
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
