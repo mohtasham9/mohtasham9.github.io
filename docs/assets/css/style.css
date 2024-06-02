@@ -219,7 +219,7 @@ h1, h2, h3 {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: auto;
+  margin: 0 auto 20px; /* Center align and add bottom margin */
 }
 
 /* Additional styling for blog post previews */
