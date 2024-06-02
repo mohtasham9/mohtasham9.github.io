@@ -6,7 +6,7 @@ categories: jekyll update
 excerpt: In this blog, we will walk you through the process of building an application that extracts data from documents using AWS Textract
 ---
 
-![Alt Text](/assets/images/aws_textract.png)
+![Alt Text](/assets/images/aws_textract.png){:class="post-image"}
 
 In the digital age, managing and processing vast amounts of data is crucial for businesses and individuals alike. One of the key challenges faced is extracting meaningful information from documents like PDFs and images. Manual data entry is not only time-consuming but also prone to errors. To address this challenge, we can leverage the power of machine learning and cloud services to automate the process.
 

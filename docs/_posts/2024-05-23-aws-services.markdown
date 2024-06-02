@@ -6,7 +6,7 @@ categories: jekyll update
 excerpt: We’ll walk through the process of deploying a FastAPI using docker image and lambda functions
 ---
 
-![Alt Text](/assets/images/fastapi.png)
+![Alt Text](/assets/images/fastapi.png){:class="post-image"}
 
 In the ever-evolving landscape of web development, building high-performance and scalable APIs is essential for modern applications. Thankfully, with the advent of powerful Python frameworks like FastAPI and tools like Mangum and Uvicorn, developers now have the means to unlock unparalleled speed, efficiency, and scalability in their web applications.
 

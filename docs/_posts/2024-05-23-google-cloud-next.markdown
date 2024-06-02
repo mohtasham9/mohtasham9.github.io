@@ -6,7 +6,7 @@ categories: jekyll update
 excerpt: All announcements of Google Cloud Next 2024
 ---
 
-![Alt Text](/assets/images/gcp.png)
+![Alt Text](/assets/images/gcp.png){:class="post-image"}
 
 The dust has settled on Google Cloud Next 2024, and the announcements are still buzzing. From AI-powered video creation to enhanced data security, Google Cloud is setting its sights on a future that’s not just innovative, but fundamentally transformative. This year’s conference wasn’t just about flashy new features; it was a glimpse into a world where intelligent automation empowers businesses, data becomes a strategic weapon, and the very fabric of the cloud is reimagined. In this blog, we’ll dissect the key announcements, analyzing their potential impact and what it means for businesses looking to stay ahead of the curve. So, buckle up and get ready to explore the exciting — and sometimes challenging — possibilities on the horizon with Google Cloud.
 

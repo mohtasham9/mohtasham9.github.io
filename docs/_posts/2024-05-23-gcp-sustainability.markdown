@@ -6,7 +6,7 @@ categories: jekyll update
 excerpt: we’re going to explore how Google Cloud is working towards sustainability while still providing awesome technology.
 ---
 
-![Alt Text](/assets/images/gcp-sus.png)
+![Alt Text](/assets/images/gcp-sus.png){:class="post-image"}
 
 In this series, we’re going to explore how Google Cloud is working towards sustainability while still providing awesome technology.
 
